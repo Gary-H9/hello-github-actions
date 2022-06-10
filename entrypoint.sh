@@ -1,7 +1,13 @@
 #!/bin/sh -l
 
-sh -c "echo Hello world my name is $INPUT_MY_NAME"
+sh -c "Checking for LICENSE file Existence..."
 
 # ls /repo
 
-test -f LICENSE #&& echo "LICENSE exists."
+#test -f LICENSE #&& echo "LICENSE exists."
+
+if `test -f LICENSE` ; then
+    echo "LICENSE File Exists."
+else
+    echo "LICENSE File DOES NOT Exist."
+fi
