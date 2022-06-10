@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-sh -c "Checking for LICENSE file Existence..."
+echo "Checking for LICENSE file Existence..."
 
 # ls /repo
 
