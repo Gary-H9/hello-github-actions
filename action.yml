@@ -1,5 +1,5 @@
-name: "Hello Actions"
-description: "Greet someone"
+name: "LICENSE Existence Checker"
+description: "Checks LICENSE existence"
 author: "octocat@github.com"
 
 runs:
