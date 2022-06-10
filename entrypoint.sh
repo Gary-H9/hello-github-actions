@@ -1,5 +1,9 @@
 #!/bin/sh -l
 
+echo "Repo contents:"
+
+ls /repo
+
 echo "Checking for LICENSE file Existence..."
 
 # ls /repo
