@@ -7,13 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: ./action-a
+      - uses: ./
         with:
           MY_NAME: "Mona"
-
-      - name: Checkout code
-        uses: actions/checkout@v1
-
-      - name: Check file existence
-        run: test -f LICENSE && echo "LICENSE exists."
-  
