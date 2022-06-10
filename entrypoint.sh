@@ -1,7 +1,7 @@
 #!/bin/sh -l
 
 echo "###########################################"
-echo "🤖💬  Checking for LICENSE file Existence..."
+echo "🤖 - Checking for LICENSE file Existence..."
 
 if `test -f LICENSE` ; then
     echo "✔️ - LICENSE File Exists."
