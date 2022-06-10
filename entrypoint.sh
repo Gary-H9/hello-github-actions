@@ -12,4 +12,4 @@ echo "Checking for LICENSE file Existence..."
 #     echo "LICENSE File DOES NOT Exist."
 # fi
 
-test -f LICENSE && echo "LICENSE File Exists." || echo "LICENSE File DOES NOT Exist."
+test -f LICENSE && echo "LICENSE File Exists." || echo "LICENSE File DOES NOT Exist." exit 1
